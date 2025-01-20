@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <h1>Expense Tracker</h1>
+        <h2>Add A new item:</h2>
+        <div>
+          <label for="Expense">name : </label>
+          <input
+            type="text"
+            name="Expense"
+            id="Expense"
+            placeholder="What was the Expense made :"
+          />
+        </div>
+        <div>
+          <label for="date">date : </label>
+          <input
+            type="date"
+            name="date"
+            id="date"
+            placeholder="Enter The date :"
+          />
+        </div>
+
+        <div>
+          <label for="amount">amount : </label>
+          <input
+            type="number"
+            name="amount"
+            id="amount"
+            placeholder="Enter Amount :"
+          />
+        </div>
+        <button id="Add">Add Item</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

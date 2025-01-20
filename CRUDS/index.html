@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>CRUDS</title>
+  </head>
+  <body>
+   <main>
+
+    <div class="container">
+      <h1 class="head">Phones & TVs</h1>
+      <input type="text" id="title" placeholder="title">
+      <div class="price">
+        <input type="number" id="price" placeholder="price">
+        <input type="number" id="taxes" placeholder="taxes">
+        <input type="number" id="ads" placeholder="ads">
+        <input type="number" id="discount" placeholder="discount">
+        <span id="total"></span>
+      </div>
+      <input type="number" id="count" placeholder="count">
+      <label for="category">Select the category : </label>
+      <select id="category" name="category" >
+        <optgroup label="Phones">
+          <option value="Ios">ios</option>
+          <option value="android" selected>android</option>
+        </optgroup>
+        <optgroup label="TVs">
+          <option value="Samsung">Samsung</option>
+          <option value="Sony">Sony</option>
+          <option value="tcl">tcl</option>
+        </optgroup>
+      </select>
+      <button id="create">Create</button>
+      <input type="text" placeholder="search" id="search_input">
+      <div class="search-btn">
+          <button id="search_name">Search By Name</button>
+          <button id="search_category">Search By Category</button>
+      </div>
+
+     <button id="del_all">Delete All</button>
+      <table>
+        <thead>
+          <th>id</th>
+          <th>title</th>
+          <th>price</th>
+          <th>taxes</th>
+          <th>ads</th>
+          <th>discount</th>
+          <th>total</th>
+          <th>count</th>
+          <th>Category</th>
+          <th>update</th>
+          <th>delete</th>
+        </thead>
+        <tbody id="tbody">
+        
+
+        </tbody>
+      </table>
+
+
+    </div>
+   </main>
+    <script src="script.js"></script>
+  </body>
+</html>
