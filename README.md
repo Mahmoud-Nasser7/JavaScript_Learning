@@ -6,9 +6,9 @@ Here are the projects included in this repository:
    - A simple banking app to practice **DOM manipulation** and **user interaction**.  
    - **Skills Practiced:** DOM updates, event listeners, and dynamic content rendering.
 
-### 2. **CRUDS App**  
-   - A basic **CRUD (Create, Read, Update, Delete, Search)** application to manage data.  
-   - **Skills Practiced:** Data handling, form validation, and dynamic table updates.
+### 2. **CRUD App**  
+   - A basic **CRUD (Create, Read, Update, Delete)** application to manage data.  
+   - **Skills Practiced:** Data handling, form validation, local Storage, and dynamic table updates.
 
 ### 3. **Expense Tracker**  
    - An app to track **income and expenses**, helping to understand **state management** and **DOM updates**.  
